@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model WebCoreSite.Models.SPAObjetoViewModel
+
+<div class="row">
+    <div class="col-lg-9">
+        <div id="default">
+            <div class="card mb-4">
+                <div class="card-header">Inserir ou Atualizar:</div>
+                <div class="card-body">
+                    <div class="sbp-preview">
+                        <div class="sbp-preview-content">
+                            
+                            @if(string.IsNullOrEmpty(Model.MensagensErro) == false)
+                            {
+                            <div class="form-group text-danger">
+                                <label>@Model.MensagensErro</label>
+                            </div>
+                            }
+                            
+                            @await Html.PartialAsync("Partial/_InserirAtualizar", Model.InserirAtualizar)
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-header">Itens cadastrados:</div>
+                <div class="card-body">
+                    <div class="sbp-preview">
+                        <div class="sbp-preview-content">
+                            @await Html.PartialAsync("Partial/_Listar", Model.Lista)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

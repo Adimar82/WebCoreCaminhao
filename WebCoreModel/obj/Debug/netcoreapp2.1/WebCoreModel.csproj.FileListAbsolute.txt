@@ -1,0 +1,9 @@
+C:\Users\Adimar\source\repos\WebCore\WebCoreModel\bin\Debug\netcoreapp2.1\WebCoreModel.deps.json
+C:\Users\Adimar\source\repos\WebCore\WebCoreModel\bin\Debug\netcoreapp2.1\WebCoreModel.dll
+C:\Users\Adimar\source\repos\WebCore\WebCoreModel\bin\Debug\netcoreapp2.1\WebCoreModel.pdb
+C:\Users\Adimar\source\repos\WebCore\WebCoreModel\obj\Debug\netcoreapp2.1\WebCoreModel.csproj.CoreCompileInputs.cache
+C:\Users\Adimar\source\repos\WebCore\WebCoreModel\obj\Debug\netcoreapp2.1\WebCoreModel.AssemblyInfoInputs.cache
+C:\Users\Adimar\source\repos\WebCore\WebCoreModel\obj\Debug\netcoreapp2.1\WebCoreModel.AssemblyInfo.cs
+C:\Users\Adimar\source\repos\WebCore\WebCoreModel\obj\Debug\netcoreapp2.1\WebCoreModel.dll
+C:\Users\Adimar\source\repos\WebCore\WebCoreModel\obj\Debug\netcoreapp2.1\WebCoreModel.pdb
+C:\Users\Adimar\source\repos\WebCore\WebCoreModel\obj\Debug\netcoreapp2.1\WebCoreModel.csprojAssemblyReference.cache

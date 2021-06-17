@@ -1,0 +1,23 @@
+﻿@model List<WebCoreModel.CaminhaoModel>
+
+<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+    <thead>
+        <tr>
+            <th class="text-center">ID</th>
+            <th>Nome</th>
+            <th>Editar</th>
+            <th>Excluir</th>
+        </tr>
+    </thead>
+    <tfoot>
+        @for (int idxItem = 0; idxItem < Model.Count; idxItem++)
+        {
+        <tr>
+            <th width="300px">@Model[idxItem].ID</th>
+            <th>@Model[idxItem].Nome</th>
+            <th>@Html.ActionLink("Editar", "editar", "home", new { id = Model[idxItem].ID } )</th>
+            <th>@Html.ActionLink("Excluir", "excluir", "home", new { id = Model[idxItem].ID })</th>
+        </tr>
+        }
+    </tfoot>
+</table>

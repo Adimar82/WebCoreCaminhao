@@ -1,0 +1,14 @@
+C:\Users\Adimar\source\repos\WebCore\WebCoreNegocio\bin\Debug\netcoreapp2.1\WebCoreNegocio.deps.json
+C:\Users\Adimar\source\repos\WebCore\WebCoreNegocio\bin\Debug\netcoreapp2.1\WebCoreNegocio.dll
+C:\Users\Adimar\source\repos\WebCore\WebCoreNegocio\bin\Debug\netcoreapp2.1\WebCoreNegocio.pdb
+C:\Users\Adimar\source\repos\WebCore\WebCoreNegocio\bin\Debug\netcoreapp2.1\WebCoreModel.dll
+C:\Users\Adimar\source\repos\WebCore\WebCoreNegocio\bin\Debug\netcoreapp2.1\WebCoreRepositorio.dll
+C:\Users\Adimar\source\repos\WebCore\WebCoreNegocio\bin\Debug\netcoreapp2.1\WebCoreRepositorio.pdb
+C:\Users\Adimar\source\repos\WebCore\WebCoreNegocio\bin\Debug\netcoreapp2.1\WebCoreModel.pdb
+C:\Users\Adimar\source\repos\WebCore\WebCoreNegocio\obj\Debug\netcoreapp2.1\WebCoreNegocio.csprojAssemblyReference.cache
+C:\Users\Adimar\source\repos\WebCore\WebCoreNegocio\obj\Debug\netcoreapp2.1\WebCoreNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Adimar\source\repos\WebCore\WebCoreNegocio\obj\Debug\netcoreapp2.1\WebCoreNegocio.AssemblyInfoInputs.cache
+C:\Users\Adimar\source\repos\WebCore\WebCoreNegocio\obj\Debug\netcoreapp2.1\WebCoreNegocio.AssemblyInfo.cs
+C:\Users\Adimar\source\repos\WebCore\WebCoreNegocio\obj\Debug\netcoreapp2.1\WebCoreNegocio.csproj.CopyComplete
+C:\Users\Adimar\source\repos\WebCore\WebCoreNegocio\obj\Debug\netcoreapp2.1\WebCoreNegocio.dll
+C:\Users\Adimar\source\repos\WebCore\WebCoreNegocio\obj\Debug\netcoreapp2.1\WebCoreNegocio.pdb

@@ -1,0 +1,31 @@
+﻿@model WebCoreModel.CaminhaoModel
+
+<form id="frmAtuIns" action="/home/atualizar" method="post">
+    <div class="form-group text-danger">
+        @Html.ValidationSummary()
+    </div>
+    @Html.HiddenFor(obj => obj.ID)
+    <div class="form-group">
+        @Html.LabelFor(obj => obj.ID)
+        @Html.TextBoxFor(obj => obj.ID, new { @class = "form-control", @disabled = "disabled", placeholder = "Identificador único" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(obj => obj.Nome)
+        @Html.TextBoxFor(obj => obj.Nome, new { @class = "form-control", placeholder = "Nome" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(obj => obj.Modelo)
+        @Html.DropDownListFor(obj => obj.Modelo, (IEnumerable<SelectListItem>)ViewBag.ListaModelos, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(obj => obj.AnoModelo)
+        @Html.TextBoxFor(obj => obj.AnoModelo, new { @class = "form-control", placeholder = "Ano do Modelo" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(obj => obj.AnoFabricacao)
+        @Html.TextBoxFor(obj => obj.AnoFabricacao, new { @class = "form-control", @disabled = "disabled", placeholder = "Ano de Fabricação" })
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Salvar" class="btn btn-success" />
+    </div>
+</form>

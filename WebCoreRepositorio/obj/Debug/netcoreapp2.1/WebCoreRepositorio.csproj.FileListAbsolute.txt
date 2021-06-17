@@ -1,0 +1,12 @@
+C:\Users\Adimar\source\repos\WebCore\WebCoreRepositorio\bin\Debug\netcoreapp2.1\WebCoreRepositorio.deps.json
+C:\Users\Adimar\source\repos\WebCore\WebCoreRepositorio\bin\Debug\netcoreapp2.1\WebCoreRepositorio.dll
+C:\Users\Adimar\source\repos\WebCore\WebCoreRepositorio\bin\Debug\netcoreapp2.1\WebCoreRepositorio.pdb
+C:\Users\Adimar\source\repos\WebCore\WebCoreRepositorio\bin\Debug\netcoreapp2.1\WebCoreModel.dll
+C:\Users\Adimar\source\repos\WebCore\WebCoreRepositorio\bin\Debug\netcoreapp2.1\WebCoreModel.pdb
+C:\Users\Adimar\source\repos\WebCore\WebCoreRepositorio\obj\Debug\netcoreapp2.1\WebCoreRepositorio.csprojAssemblyReference.cache
+C:\Users\Adimar\source\repos\WebCore\WebCoreRepositorio\obj\Debug\netcoreapp2.1\WebCoreRepositorio.csproj.CoreCompileInputs.cache
+C:\Users\Adimar\source\repos\WebCore\WebCoreRepositorio\obj\Debug\netcoreapp2.1\WebCoreRepositorio.AssemblyInfoInputs.cache
+C:\Users\Adimar\source\repos\WebCore\WebCoreRepositorio\obj\Debug\netcoreapp2.1\WebCoreRepositorio.AssemblyInfo.cs
+C:\Users\Adimar\source\repos\WebCore\WebCoreRepositorio\obj\Debug\netcoreapp2.1\WebCoreRepositorio.csproj.CopyComplete
+C:\Users\Adimar\source\repos\WebCore\WebCoreRepositorio\obj\Debug\netcoreapp2.1\WebCoreRepositorio.dll
+C:\Users\Adimar\source\repos\WebCore\WebCoreRepositorio\obj\Debug\netcoreapp2.1\WebCoreRepositorio.pdb

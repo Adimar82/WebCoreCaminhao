@@ -1,0 +1,1 @@
+<Playlist Version="1.0"><Add Test="WebCoreTest.UnitTestCaminhao.A01_CaminhaoCadastro_Sucesso" /><Add Test="WebCoreTest.UnitTestCaminhao.A02_CaminhaoPegar_Sucesso" /><Add Test="WebCoreTest.UnitTestCaminhao.A03_CaminhaoAlterar_Sucesso" /><Add Test="WebCoreTest.UnitTestCaminhao.A04_CaminhaoExcluir_Sucesso" /></Playlist>
