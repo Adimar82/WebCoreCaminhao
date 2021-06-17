@@ -94,7 +94,7 @@ namespace WebCoreNegocio
 			}
 			
 			if ((caminhaoPersistido == null && caminhaoModel.AnoFabricacao != (short)DateTime.Now.Year)  
-				|| (caminhaoPersistido != null && caminhaoModel.AnoFabricacao < 1927 || caminhaoModel.AnoFabricacao >= short.MaxValue))
+				|| (caminhaoPersistido != null && (caminhaoModel.AnoFabricacao < 1927 || caminhaoModel.AnoFabricacao >= short.MaxValue)))
 			{
 				retorno.Sucesso = false;
 				retorno.Mensagem += "Informe um Ano de Fabricação válido. ";

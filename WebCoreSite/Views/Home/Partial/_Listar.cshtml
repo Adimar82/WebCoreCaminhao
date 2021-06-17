@@ -3,8 +3,10 @@
 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
     <thead>
         <tr>
-            <th class="text-center">ID</th>
             <th>Nome</th>
+            <th>Modelo</th>
+            <th>Ano Fabricacao</th>
+            <th>Ano Modelo</th>
             <th>Editar</th>
             <th>Excluir</th>
         </tr>
@@ -13,10 +15,24 @@
         @for (int idxItem = 0; idxItem < Model.Count; idxItem++)
         {
         <tr>
-            <th width="300px">@Model[idxItem].ID</th>
             <th>@Model[idxItem].Nome</th>
-            <th>@Html.ActionLink("Editar", "editar", "home", new { id = Model[idxItem].ID } )</th>
-            <th>@Html.ActionLink("Excluir", "excluir", "home", new { id = Model[idxItem].ID })</th>
+
+            @switch (Model[idxItem].Modelo)
+            {
+                case 1:
+                    <th>FH</th>
+                    break;
+                case 2:
+                    <th>FM</th>
+                    break;
+                default:
+                    <th>Unknow</th>
+                    break;
+            }
+            <th>@Model[idxItem].AnoFabricacao</th>
+            <th>@Model[idxItem].AnoModelo</th>
+            <th>@Html.ActionLink("Editar", "editar", "home", new { id = Model[idxItem].ID })</th>
+            <th>@Html.ActionLink("Excluir", "excluir", "home", new { id = Model[idxItem].ID }, new { @onclick = "javascript:return confirm('Deseja realmente exlcuir?')" })</th>
         </tr>
         }
     </tfoot>
