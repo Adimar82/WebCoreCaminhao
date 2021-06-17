@@ -34,12 +34,42 @@ namespace WebCoreTest
 			Assert.AreEqual(true, retorno.Sucesso, retorno.Mensagem);
 		}
 
-		[TestMethod]
-		public void CaminhaoCadastro_Erro()
+		/// <summary>
+		/// Colocando um modelo errado.
+		/// </summary>
+		[TestMethod]		
+		public void CaminhaoCadastroModelo_Erro()
 		{
 			RetornoMetodoTipado<CaminhaoModel> retorno = new RetornoMetodoTipado<CaminhaoModel>();
 			CaminhaoModel caminhaoModel = CriarCaminhao();
-			caminhaoModel.Modelo = 3;
+			caminhaoModel.Modelo = 3;  //Três não existe.
+			retorno = _CaminhaoNeg.Inserir(caminhaoModel);
+			Assert.AreEqual(false, retorno.Sucesso, retorno.Mensagem);
+		}
+
+		/// <summary>
+		/// Colocando um ano de fabricacao errado.
+		/// </summary>
+		[TestMethod]
+		public void CaminhaoCadastroAnoFabricacao_Erro()
+		{
+			RetornoMetodoTipado<CaminhaoModel> retorno = new RetornoMetodoTipado<CaminhaoModel>();
+			CaminhaoModel caminhaoModel = CriarCaminhao();
+			caminhaoModel.AnoFabricacao = 2022;  //Deve ser o ano atual.
+			retorno = _CaminhaoNeg.Inserir(caminhaoModel);
+			Assert.AreEqual(false, retorno.Sucesso, retorno.Mensagem);
+		}
+
+
+		/// <summary>
+		/// Colocando um ano de fabricacao errado.
+		/// </summary>
+		[TestMethod]
+		public void CaminhaoCadastroAnoModelo_Erro()
+		{
+			RetornoMetodoTipado<CaminhaoModel> retorno = new RetornoMetodoTipado<CaminhaoModel>();
+			CaminhaoModel caminhaoModel = CriarCaminhao();
+			caminhaoModel.AnoModelo = 2019;  //Atual ou subsequente
 			retorno = _CaminhaoNeg.Inserir(caminhaoModel);
 			Assert.AreEqual(false, retorno.Sucesso, retorno.Mensagem);
 		}
